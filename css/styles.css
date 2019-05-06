@@ -1,0 +1,98 @@
+.main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.m-auto {
+    margin: auto !important;
+}
+/*===== HEADER START =====*/
+nav li#account_link {
+    position: relative;
+}
+nav li .account {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.dropdown-content {
+    position: absolute;
+}
+nav li#account_link:hover #dropdown_account_link.dropdown-content {
+    display: block !important;
+    opacity: 1;
+    top: 100%;
+    left: initial;
+    right: 0;
+    width: 220px;
+}
+/*===== HEADER END =====*/
+/*===== FORM START =====*/
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+label {
+    display: block;
+}
+input, select, textarea {
+    border-width: 1px;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+input[type='radio'] {
+    width: initial;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.radio-wrapper {
+    display: flex;
+    align-items: center;
+}
+input[type='email'] {
+}
+
+select {
+
+}
+textarea {
+    resize: vertical;
+}
+.error {
+    color: red;
+    border-color: red;
+}
+.success {
+    color: green;
+    border-color: green;
+}
+/* Style Placeholders */
+.my-account ::-webkit-input-placeholder {
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+}
+.my-account ::-moz-placeholder {
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+}
+.my-account :-ms-input-placeholder {
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+}
+.my-account ::placeholder {
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+}
+/*===== FORM END =====*/
+.pagination-wrapper a {
+    margin-right: 10px;
+}
